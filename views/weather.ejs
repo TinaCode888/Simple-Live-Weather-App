@@ -1,12 +1,17 @@
 <%- include('partials/header') %>
 
 <div class="data">
-    <p>The weather is currently <%= description %></p>
-    <h3>The temperature in <%= query %> is <%= temp %> degrees Celcius</h3>
-    <p>Feels like <%= feelsLike %> degrees celcius</p>
-    <p>Wind speed is <%= windSpeed %> kph</p>
-    <p>Humidity is <%= humidity %>%</p>
-    <img src="<%= imgUrl %>">
+    <div>
+        <h5>Current temperature in <%= query.charAt(0).toUpperCase() + query.slice(1) %></h5>
+        <h3><%= temp %>°C</h3>
+        <img src="<%= imgUrl %>">
+        <p>Feels like <%= feelsLike %>°C</p>
+    </div>
+    <div>
+        <p>The weather is currently <%= description %></p>
+        <p>Wind speed: <%= windSpeed %> kmph</p>
+        <p>Humidity: <%= humidity %>%</p>
+    </div>
 </div>
 
 <%- include('partials/footer') %>

@@ -17,10 +17,10 @@ app.post("/", (req, res) => {
     const query = req.body.cityName;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=${process.env.API_KEY}`;    
 
-    https.get(url, function(response){
+    https.get(url, (response) => {
         console.log(response.statusCode);   // check HTTP status code of request made to a server
 
-        response.on("data", function(data){
+        response.on("data", (data) => {
             const weatherData = JSON.parse(data);
             const weatherDescription = weatherData.weather[0].description;
             const temp = weatherData.main.temp;

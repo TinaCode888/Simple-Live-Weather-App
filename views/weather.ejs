@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+
+<div class="data">
+    <p>The weather is currently <%= description %></p>
+    <h3>The temperature in <%= query %> is <%= temp %> degrees Celcius</h3>
+    <p>Feels like <%= feelsLike %> degrees celcius</p>
+    <p>Wind speed is <%= windSpeed %> kph</p>
+    <p>Humidity is <%= humidity %>%</p>
+    <img src="<%= imgUrl %>">
+</div>
+
+<%- include('partials/footer') %>

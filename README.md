@@ -37,10 +37,11 @@ A Live Weather App built using Node.js, Express.js, EJS, CSS, and the OpenWeathe
     - http://localhost:3000
 
 # Screenshots 📸
-  ### Search Page: A text input for city names.
-  ![Live_weather_home](https://github.com/user-attachments/assets/b8d9a191-1ac3-4e95-b94d-793e85a2331e)
+  - Search Page: A text input for city names.
+    
+  ![Live_weather_home](https://github.com/user-attachments/assets/d401334f-089e-400d-a3c4-3cae54b067e0)
 
-  ### Weather Display: Results showing temperature, weather and more.
-  ![Live_Weather](https://github.com/user-attachments/assets/7baf2a40-dca6-4114-989e-24befd386442)
+  - Weather Display: Results showing temperature, weather and more.
+    
+  ![Live_Weather](https://github.com/user-attachments/assets/6d02d65f-ba8c-4b27-9a6e-2a54d321e575)
 
-  
